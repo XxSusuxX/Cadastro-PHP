@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "akali123";
+$password = " ";
 $database = "formulario-cadastro";
 
 
