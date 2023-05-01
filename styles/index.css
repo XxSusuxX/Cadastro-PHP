@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html,
+  body {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.container{
+    width: 200px;
+    height: 130px;
+    position: relative;
+}
+.btn-cadastrar ,.btn-login {
+    color: #bb3267;
+    background-color: #e96698;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 38px;
+    font-weight: 700;
+    border: solid 2px #641a37;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
+.btn-cadastrar:hover, .btn-login:hover{
+    background-color: #f187b0;
+}
+
+.btn-cadastrar, .btn-login{
+    transition: all 0.2s ease-in-out;
+}
+.btn-cadastrar:hover , .btn-cadastrar:active{
+    transform: scale(0.99);
+}
+.btn-login:hover , .btn-login:active{
+    transform: scale(0.99);
+}
+.btn-login{
+    margin-top: 82px;
+    left: 39px;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
