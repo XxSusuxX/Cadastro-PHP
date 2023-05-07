@@ -8,11 +8,24 @@ const button = document.querySelector(".button");
 const msgSucess = document.querySelector(".msg-sucess");
 var sucess;
 form.addEventListener("submit", (e) => {
-  var sucess = checkInputs();
+  sucess = checkInputs();
   if (sucess == false) {
     e.preventDefault();
   } else {
+    localStorage.setItem("cadastroStatus", "sucesso");
+  }
+});
+
+window.addEventListener("load", () => {
+  // verifica se há um status de cadastro no armazenamento local
+  const cadastroStatus = localStorage.getItem("cadastroStatus");
+
+  if (cadastroStatus === "sucesso") {
+    // exibe a mensagem de cadastro realizado com sucesso
     msgSucess.style.visibility = "visible";
+
+    // remove o status de cadastro do armazenamento local
+    localStorage.removeItem("cadastroStatus");
   }
 });
 
@@ -68,7 +81,6 @@ function checkInputs() {
   });
   if (formIsValid) {
     return (sucess = true);
-    msgSucess.style.display = "block";
   } else {
     return (sucess = false);
   }

@@ -28,7 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
   <head>
     <title>Cadastro Susu</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/cadastro.css" />
+    <link rel="stylesheet" type="text/css" href="cadastro.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,6 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     />
   </head>
   <body>
+  <a href="index.html" class="back">Voltar</a>
     <div class="container">
       <div class="header">
         <h2>Criar Uma Conta</h2>
