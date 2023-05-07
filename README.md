@@ -16,6 +16,7 @@ Os usuários devem ser capazes de:
 - Inserir os dados
 - Caso erro poder ser vizualizado
 - Ser registado no banco de dados
+- Conseguir fazer login com os dados registrados
 
 ## Onde encontrar os arquivos
 
