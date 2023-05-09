@@ -1,0 +1,42 @@
+.container {
+  width: 200px;
+  height: 130px;
+  position: relative;
+}
+.btn-cadastrar,
+.btn-login {
+  color: #bb3267;
+  background-color: #e96698;
+  padding: 10px;
+  text-decoration: none;
+  position: absolute;
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 38px;
+  font-weight: 700;
+  border: solid 2px #641a37;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
+}
+.btn-cadastrar:hover,
+.btn-login:hover {
+  background-color: #f187b0;
+}
+
+.btn-cadastrar,
+.btn-login {
+  transition: all 0.2s ease-in-out;
+}
+.btn-cadastrar:hover,
+.btn-cadastrar:active {
+  transform: scale(0.99);
+}
+.btn-login:hover,
+.btn-login:active {
+  transform: scale(0.99);
+}
+.btn-login {
+  margin-top: 82px;
+  left: 39px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");

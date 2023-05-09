@@ -1,7 +1,7 @@
 
 <?php
 //conexão com o servidor
-include_once('config.php');
+include_once('../config.php');
 
 
 
@@ -28,18 +28,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
   <head>
     <title>Cadastro Susu</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="cadastro.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/cadastro.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
     
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-  <a href="index.html" class="back">Voltar</a>
+  <a href="../index.html" class="back">Voltar</a>
     <div class="container">
       <div class="header">
         <h2>Criar Uma Conta</h2>
@@ -100,4 +99,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
       src="https://kit.fontawesome.com/4a2dfb5915.js"
       crossorigin="anonymous"
     ></script>
-    <script src="scripts.js"></script>
+    <script src="../scripts/validationSingUp.js"></script>
+    
