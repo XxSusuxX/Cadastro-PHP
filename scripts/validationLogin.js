@@ -1,11 +1,14 @@
 const form = document.getElementById("form");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
+const error = document.getElementById("msg-error");
 var sucess;
 form.addEventListener("submit", (e) => {
   sucess = check();
   if (sucess == false) {
     e.preventDefault();
+  } else {
+    localStorage.setItem("cadastroStatus", "sucesso");
   }
 });
 function check() {
@@ -48,7 +51,7 @@ window.addEventListener("load", () => {
 
   if (cadastroStatus === "sucesso") {
     // exibe a mensagem de cadastro realizado com sucesso
-    msgSucess.style.visibility = "visible";
+    error.style.visibility = "visible";
 
     // remove o status de cadastro do armazenamento local
     localStorage.removeItem("cadastroStatus");

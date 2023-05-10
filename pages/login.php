@@ -11,9 +11,9 @@
         $result = $conn->query($sql);
 
         if(mysqli_num_rows($result) < 1){
-          echo "<script>setErrorFor(email,'Seu email não está registrado')</script>";
-          echo "<script>setErrorFor(email,'Seu email não está registrado')</script>";
          
+          header('Location: ../pages/login.php');
+
           }else{
             $usuario = $result->fetch_assoc();
 
@@ -73,7 +73,7 @@
           <i class="fas fa-check-circle"></i>
           <small>Mensagem de erro</small>
         </div>
-
+        <small id="msg-error">Seu email ou senha não está registrado</small>
  
         <button name="submit" type="submit">Enviar</button>
       </form>

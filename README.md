@@ -20,9 +20,6 @@ Os usuários devem ser capazes de:
 
 ## Onde encontrar os arquivos
 
-Na pasta `pages` está com todas as abas do Cadastro, o própio `cadastro.php`, `login.php`e o `sistema.php`. O usuário será redirecionado ao `sistema.php` após logar.
-
-
 
 
 
