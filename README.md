@@ -20,7 +20,10 @@ Os usuários devem ser capazes de:
 
 ## Onde encontrar os arquivos
 
-Em `/pages` está cada página do meu sistema de cadastro, em `index.html` terá as opções cadastrar ou logar para o redirecionamento do mesmo, a pasta `/scripts` tem as validações de cada campo. `/style` terá todo o css de cada página.
+Em `/pages` está cada página do meu sistema de cadastro, em `index.html` terá as opções cadastrar ou logar para o redirecionamento do mesmo.
+
+A pasta `/scripts` tem as validações de cada campo, `/style` terá todo o css de cada página.
+
 O arquivo `config.php` é mais importante que precisa ser alterado de acordo com seu banco de dados.
 
 
