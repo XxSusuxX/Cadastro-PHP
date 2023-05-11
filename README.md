@@ -22,15 +22,17 @@ Os usuários devem ser capazes de:
 
 Em `/pages` está cada página do meu sistema de cadastro, em `index.html` terá as opções cadastrar ou logar para o redirecionamento do mesmo.
 
-A pasta `/scripts` tem as validações de cada campo, `/style` terá todo o css de cada página.
+A pasta `/scripts` tem as validações de cada campo, e `/style` terá todo o css de cada página.
 
-O arquivo `config.php` é mais importante que precisa ser alterado de acordo com seu banco de dados.
-
-
+O arquivo `config.php` é mais importante que precisa ser alterado de acordo com seu banco de dados, para tudo funcionar.
 
 ## O que eu aprendi
 
+Ao desenvolver esse cadastro, eu pude aprender a criar interfaces de usuário responsivas e interativas usando CSS e JavaScript.
 
+Isso pode incluir a validação de formulários, exibição de mensagens de erro e confirmação, exibição de dados em tabelas e gráficos, entre outras coisas.
+
+Em resumo, desenvolver este cadastro em PHP foi uma excelente maneira de aprender a criar aplicativos web do zero e ganhar habilidades práticas em programação web.
 
 # Resultado final
 
