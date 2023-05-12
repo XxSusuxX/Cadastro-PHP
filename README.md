@@ -40,6 +40,10 @@ Em resumo, desenvolver este cadastro em PHP foi uma excelente maneira de aprende
 
 ![Index](./images/telaIndex.png)
 
+## Cadastro
+
+![Cadastro](./images/telaCadastrar.png)
+
 ## Autor
 
 Nome - Gabriel Suenaga
