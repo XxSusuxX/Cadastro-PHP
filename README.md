@@ -44,6 +44,22 @@ Em resumo, desenvolver este cadastro em PHP foi uma excelente maneira de aprende
 
 ![Cadastro](./images/telaCadastrar.png)
 
+## Cadastro Erro
+
+![CadastroErro](./images/telaErro.png)
+
+## Login
+
+![Login](./images/telaLogin.png)
+
+## Login Erro
+
+![LoginErro](./images/telaErro(2).png)
+
+## Logado
+
+![Logado](./images/telaLogado.png)
+
 ## Autor
 
 Nome - Gabriel Suenaga
