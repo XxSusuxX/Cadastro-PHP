@@ -38,7 +38,7 @@ Em resumo, desenvolver este cadastro em PHP foi uma excelente maneira de aprende
 
 ## Index
 
-![Index](./Calculadora/images/final/calculadora-web.png)
+![Index](./images/telaIndex.png)
 
 ## Autor
 
