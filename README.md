@@ -2,7 +2,7 @@
 
 Obrigado por dar um olha em mais um dos meus projetos.
 
-**Para fazer este desafio, foi necessário o uso de HTML, CSS, PHP e Mysql**
+**Para fazer este desafio, foi necessário o uso de HTML, CSS, PHP e PhpMyAdmin**
 
 ## O Projeto
 
